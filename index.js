@@ -20,6 +20,6 @@ const checkHealth = async () => {
 };
 
 // Cron job: every 5 minutes
-cron.schedule('* */1 * * * *', checkHealth);
+cron.schedule('* * * * *', checkHealth);
 
 console.log('🟡 Health monitor started. Monitoring every 5 minutes...');
