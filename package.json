@@ -1,17 +1,24 @@
 {
   "name": "cron-job-app",
   "version": "1.0.0",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sukehiro-San/cron-job-backend.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
+  "bugs": {
+    "url": "https://github.com/sukehiro-San/cron-job-backend/issues"
+  },
+  "homepage": "https://github.com/sukehiro-San/cron-job-backend#readme",
   "dependencies": {
-    "cors": "^2.8.5",
-    "express": "^5.1.0",
+    "axios": "^1.9.0",
     "node-cron": "^4.1.0"
   }
 }
